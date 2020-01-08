@@ -25,12 +25,15 @@ html {
     padding-left: 10%;
     background-color: #ff5609;
     height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .columns__column--a--text {
-    padding-top: 2vh;
     display: inline-block;
     text-align: left;
+    max-width: 100%;
     font-size: calc(.8rem + 1.2vw);
     line-height: 1.25em;
 }
@@ -84,4 +87,18 @@ html {
 
 .intro-cta__button:hover {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns__column--a--text {
+        display: inline-block;
+        text-align: left;
+        max-width: 100%;
+        font-size: calc(.8rem + 1vw);
+        line-height: 1.25em;
+    }
+
+    .intro-cta__button {
+        margin-top: 5vh;
+    }
 }
