@@ -1,0 +1,83 @@
+html {
+    font-family: Fort-Medium,Franklin Gothic,sans-serif;
+}
+
+.columns {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.columns__column--a, .columns__column--b {
+    position: relative;
+    overflow: hidden;
+}
+
+.columns__column--a {
+    text-align: center;
+    padding-top: 10vh;
+    background-color: #ff5609;
+    height: 70vh;
+}
+
+.columns__column--a--text {
+    display: inline-block;
+    text-align: left;
+}
+
+.columns__column--b {
+    height: 30vh;
+    background-color: #ffabab;
+    flex: 1 1 50%;
+}
+
+.intro-cta__hands {
+    position: absolute;
+    bottom: -5vh;
+    left: -5vw;
+    right: -1vw;
+    height: 30vh;
+    background-image: url(https://booksmakeusbetter.penguinrandomhouse.com/static/HAND_02-e192fa3bb11c968494afaccdc2a9556a.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.columns__column-inner {
+    position: relative;
+    height: 100%;
+}
+
+.intro-cta {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.intro-cta__button {
+    position: relative;
+    z-index: 1;
+    width: auto;
+    background-color: Transparent;
+    outline: 0;
+    padding: 0;
+    margin-top: 1vh;
+    font-size: calc(2.2rem + 1.8vw);
+    line-height: 1.1em;
+    border: none;
+    border-bottom: .1em solid #000;
+}
+
+.intro-cta__button:hover {
+    cursor: pointer;
+}
