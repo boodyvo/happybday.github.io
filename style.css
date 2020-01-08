@@ -21,14 +21,18 @@ html {
 
 .columns__column--a {
     text-align: center;
-    padding-top: 10vh;
+    padding-right: 10%;
+    padding-left: 10%;
     background-color: #ff5609;
     height: 70vh;
 }
 
 .columns__column--a--text {
+    padding-top: 2vh;
     display: inline-block;
     text-align: left;
+    font-size: calc(.8rem + 1.2vw);
+    line-height: 1.25em;
 }
 
 .columns__column--b {
