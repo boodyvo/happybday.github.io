@@ -23,7 +23,7 @@ html {
     text-align: center;
     padding-right: 10%;
     padding-left: 10%;
-    background-color: #ff5609;
+    background-color: rgba(255, 255, 255, 0);
     height: 70vh;
     display: flex;
     align-items: center;
@@ -40,17 +40,20 @@ html {
 
 .columns__column--b {
     height: 30vh;
-    background-color: #ffabab;
+    /*background-color: #88c9ff;*/
+    /*background-image: url("src/54677.jpg");*/
+    /*background-size: 100% 100%;*/
     flex: 1 1 50%;
 }
 
 .intro-cta__hands {
     position: absolute;
-    bottom: -5vh;
+    bottom: 1vh;
     left: -5vw;
     right: -1vw;
     height: 30vh;
-    background-image: url(https://booksmakeusbetter.penguinrandomhouse.com/static/HAND_02-e192fa3bb11c968494afaccdc2a9556a.png);
+    /*background-image: url(https://booksmakeusbetter.penguinrandomhouse.com/static/HAND_02-e192fa3bb11c968494afaccdc2a9556a.png);*/
+    background-image: url(src/54677.jpg);
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -79,7 +82,7 @@ html {
     outline: 0;
     padding: 0;
     margin-top: 1vh;
-    font-size: calc(2.2rem + 1.8vw);
+    font-size: calc(1.5rem + 1vw);
     line-height: 1.1em;
     border: none;
     border-bottom: .1em solid #000;
