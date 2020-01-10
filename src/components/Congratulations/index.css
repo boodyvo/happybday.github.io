@@ -20,7 +20,7 @@ html {
 .congratulations-page__balloons {
     width: 100%;
     height: 80vh;
-    background-image: url(balloons.jpg);
+    background-image: url(balloons.png);
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
