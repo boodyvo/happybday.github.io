@@ -18,13 +18,13 @@ export default class Congratulations extends React.Component {
                     <p> Поздравляю тебя с Днем рождения) </p>
                 </div>
                 <div className="columns__column-inner">
-                    <iframe className="columns__video" src="https://www.youtube.com/embed/jeqaIYchAI0" frameBorder="0"
+                    <iframe className="columns__video" src="https://www.youtube.com/embed/fvDueU2M5ZY" frameBorder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowFullScreen/>
-                    <div className="intro-cta">
-                        <button onClick={this.handleCalendarClick} className="intro-cta__button"> Получить чашечку чая ☕️ </button>
-                        {/*<div className="intro-cta__cup"/>*/}
-                    </div>
+                    {/*<div className="intro-cta">*/}
+                    {/*    <button onClick={this.handleCalendarClick} className="intro-cta__button"> Получить чашечку чая ☕️ </button>*/}
+                    {/*    /!*<div className="intro-cta__cup"/>*!/*/}
+                    {/*</div>*/}
                 </div>
             </div>
         )
